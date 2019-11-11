@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rock-Paper-Scissors</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/favicon/site.webmanifest">
+</head>
+<body>
+    <header>
+        <h1>Rock Paper Scissors</h1>
+    </header>
+
+    <div class= "score-board">
+        <div id="user-label" class="badge"> user</div>
+        <div id="computer-label" class="badge">computer</div>
+        <span id="user-score">0</span>:<span id="computer-score">0</span>
+    </div>
+
+    <div class="result">
+        <p>Welcome to Rock Paper Scissors Game!</p>
+    </div>
+    <div class="move">
+        <p>Take Action!</p>
+    </div>
+
+    <div class="choices">
+        <div class="choice" id="r">
+            <img src="assets/Rock.gif" alt="Rock">
+        </div>
+        <div class="choice" id="p">
+            <img src="assets/Paper.gif" alt="Paper">
+        </div>
+        <div class="choice" id="s">
+            <img src="assets/Scissors.gif" alt="Scissors">
+        </div>
+        
+    </div>
+    <a href="index.html" style="text-decoration: none"><p id="action-message">Reset</p></a>
+
+    <script src="app.js"></script>
+</body>
+</html>
