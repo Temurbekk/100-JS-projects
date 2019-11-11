@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>planetarium</title>
+</head>
+<body>
+    <div class="planets">
+        <img src="images/venus.png" alt="venus" class="planet" data-planet = "venus">
+        <img src="images/earth.png" alt="earth" class="planet" data-planet = "earth">
+        <img src="images/mars.png" alt="mars" class="planet" data-planet = "mars">
+        <img src="images/jupiter.png" alt="jupiter" class="planet" data-planet = "jupiter">
+        <img src="images/saturn.png" alt="satrun" class="planet" data-planet = "saturn"
+        style = "width: 50%">
+    </div>
+    <button class="center arrow-1" onclick="shift(this)">&larr;</button>
+    <button class="center arrow-2" onclick="shift(this)">&rarr;</button>
+    <div class="outer center">
+        <div class="info-container">
+            <h6 class="body">PLANET</h6>
+            <h1 class="name"></h1>
+            <h5 class="moons"></h5>
+            <p class="bio"></p>
+        </div>
+    </div>
+    
+</body>
+</html>
