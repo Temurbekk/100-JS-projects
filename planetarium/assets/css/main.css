@@ -2,3 +2,76 @@ body{
     margin: 0px;
     padding: 0px;
 }
+.center{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.outer{
+    width: 350px;
+    height: 600px;
+    border-radius: 30px;
+    box-shadow: 0px 15px 30px 10px #111;
+}
+
+h5{
+    display: inline;
+    padding: 0 10px 0 0 ;
+}
+
+.planets{
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    top: 30%;
+}
+
+.img{
+    transition: 1s;
+    width: 25%;
+    position: absolute;
+    opacity: 0;
+}
+
+.planets img:nth-child(1){
+    left: 20%;
+    transform: rotate(45deg) scale(0.5);
+}
+
+.planets img:nth-child(2){
+    left: 20%;
+    transform: rotate(45deg) scale(0.5);
+}
+
+.planets img:nth-child(3){
+    left: 45%;
+}
+.planets img:nth-child(4){
+    left: 70%;
+    transform: rotate(-45deg) scale(0.5);
+}
+.planets img:nth-child(5){
+    left: 70%;
+    transform: rotate(-45deg) scale(0.5);
+}
+
+.large{
+    transform: scale(1);
+    opacity: 1;
+}
+
+.info-container{
+    top: 60%;
+    left: 10%;
+    position: relative;
+}
+
+p{
+    width: 80%;
+}
